@@ -21,7 +21,7 @@ TOOL USED: Excel, Python (Python Libraries - Pandas, NumPy, Matplotlib, Seaborn,
 5.⁠ ⁠Changed the ⁠ CustomerID ⁠ column from ⁠ float ⁠ to ⁠ integer ⁠ for consistency.  
 
 
-### 3. Methodology  
+## 3. Methodology  
 
 A. Exploratory Data Analysis (EDA)
 - Performed data cleaning and preprocessing.
