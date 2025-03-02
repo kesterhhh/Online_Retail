@@ -15,15 +15,15 @@ TOOL USED: Excel, Python (Python Libraries - Pandas, NumPy, Matplotlib, Seaborn,
 
 The online retail transaction dataset contains records of customer purchases with the following structure:
 Key Fields:
-InvoiceNo: Unique transaction identifier
-StockCode: Unique product identifier
-Description: Product name
-Quantity: Number of units purchased in the transaction
-InvoiceDate: Date and time when the transaction occurred
-UnitPrice: Price per unit of the product
-CustomerID: Unique customer identifier
-Country: Country where the transaction was made
-Sales: Total sales value (Quantity × UnitPrice)
+- InvoiceNo: Unique transaction identifier
+- StockCode: Unique product identifier
+- Description: Product name
+- Quantity: Number of units purchased in the transaction
+- InvoiceDate: Date and time when the transaction occurred
+- UnitPrice: Price per unit of the product
+- CustomerID: Unique customer identifier
+- Country: Country where the transaction was made
+- Sales: Total sales value (Quantity × UnitPrice)
 
 ## 2. Data Cleaning
  
