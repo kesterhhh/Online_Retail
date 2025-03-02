@@ -43,7 +43,7 @@ E.Customer Segmentation Report
 - K-Means clustering was applied to identify customer groups.  
 - The Elbow Method was used to determine the optimal number of clusters. 
 
-#### 3. Findings and Insights  
+## 3. Findings and Insights  
 
 A. Sales Trends and Patterns 
 1. Yearly Growth
@@ -102,7 +102,7 @@ E. Customer Segmentation Report
 3.Others Customers (Regular Buyers (Moderate Spend & Frequency) – 54.6% of Customers
 
 
-#####  4. Recommendations 
+##  4. Recommendations 
 
 A. Sales Optimization
 - Introduce seasonal promotions during low-sales months.  
@@ -129,6 +129,6 @@ D. Enhanced Data Utilization
 
 
 
-##### 5. Conclusion
+## 5. Conclusion
 This analysis provides a data-driven approach to optimizing online retail sales. By leveraging machine learning, clustering, and forecasting, businesses can improve customer segmentation, enhance sales predictions, and drive revenue growth.  
 
