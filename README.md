@@ -11,7 +11,7 @@ Research Goals
 
 TOOL USED: Excel, Python (Python Libraries - Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, K-Means Clustering, Elbow Method, Prlncipal Component Analysis (PCA), Prophet)
 
-## Dataset OSummary
+## Dataset Summary
 
 The online retail transaction dataset contains records of customer purchases with the following structure:
 Key Fields:
