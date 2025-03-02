@@ -11,31 +11,44 @@ Research Goals
 
 TOOL USED: Excel, Python (Python Libraries - Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, K-Means Clustering, Elbow Method, Prlncipal Component Analysis (PCA), Prophet)
 
+## 2. Data Cleaning
+ 
+1.⁠ ⁠Changed the column name from "Description" to "Product" for clarity.  
+2.⁠ Identified and handled negative values in the ⁠ Quantity ⁠ and ⁠ UnitPrice ⁠ columns (likely indicating returns or errors).  
+3.⁠ ⁠Found 5,226 duplicate rows and dropped them to avoid redundancy.  
+4. Identified missing values in multiple columns.  
+ The ⁠ CustomerID ⁠ column had 132,180 missing values, filled them using forward filling (⁠ ffill ⁠) to propagate previous values downward.  
+5.⁠ ⁠Changed the ⁠ CustomerID ⁠ column from ⁠ float ⁠ to ⁠ integer ⁠ for consistency.  
 
-### 2. Methodology 
-The analysis was carried out in four stages:  
+
+### 3. Methodology  
 
 A. Exploratory Data Analysis (EDA)
-- Performed data cleaning and preprocessing.  
+- Performed data cleaning and preprocessing.
 - Summary statistics was performed (mean, median, standard deviation, etc.)
-- Analyzed sales trends across different time periods (daily, monthly, quarterly, yearly).  
-- Identified top-selling products and seasonal trends.  
 
-B. Clustering Analysis
+B. Feature Engineering
+- Created new features - Year, Quarter, Month, Period of the day, Days of the week)
+
+C. Visualizations
+- Analyzed sales trends across different time periods (daily, monthly, quarterly, yearly).  
+- Identified top-selling products, top selling countries and seasonal trends.  
+
+D. Clustering Analysis
 - Applied RFM (Recency, Frequency, Monetary) segmentation.  
 - Used K-Means clustering to identify customer segments.  
 - Visualized customer groups to understand behavioral patterns.  
 
-C. Predictive Classification Model
+E. Predictive Classification Model
 - Used machine learning (Random Forest) to classify transactions.  
 - Evaluated model accuracy and identified important features.  
 
-D. Sales Forecasting 
+F. Sales Forecasting 
 - Applied the Prophet model for time series forecasting.  
 - Evaluated forecast accuracy using MAE, RMSE, and MAPE.  
 - Predicted future sales trends.  
 
-E.Customer Segmentation Report  
+G.Customer Segmentation Report  
 - Recency: Days since the last purchase.  
 - Frequency: Number of purchases made.  
 - Monetary Value: Total spending amount (log-transformed for normalization).  
@@ -43,7 +56,7 @@ E.Customer Segmentation Report
 - K-Means clustering was applied to identify customer groups.  
 - The Elbow Method was used to determine the optimal number of clusters. 
 
-## 3. Findings and Insights  
+## 4. Findings and Insights  
 
 A. Sales Trends and Patterns 
 1. Yearly Growth
@@ -59,8 +72,11 @@ A. Sales Trends and Patterns
    - Sales were higher on weekends compared to weekdays.  
 
 4. Top-Selling Products 
-   - A small group of products contributed to the majority of sales.  
-   - Certain products exhibited strong seasonal demand.  
+   - A small group of products contributed to the majority of sales ( DOTCOM POSTAGE, REGENCY CAKESTAND 3 TIER AND PAPER CRAFT, LITTLE BIRDIE) 
+   - Certain products exhibited strong seasonal demand.
+5. Top Selling Countries
+   - The United Kingdom led the market as the top performer, dominating sales and securing the highest revenue.
+   - Netherland, EIRE, Germany and France followed but with low sales.
 
 B. Customer Segmentation (Clustering Analysis) 
 Using RFM (Recency, Frequency, Monetary) clustering:  
@@ -77,7 +93,7 @@ Using RFM (Recency, Frequency, Monetary) clustering:
 C. Predictive Classification Model 
 1. Model Performance
    - Random Forest model achieved high accuracy in classifying transactions.  
-   - Feature importance analysis revealed key drivers of customer behavior.  
+   - Feature importance analysis revealed key drivers of customer behavior  
 
 2. Key Predictors of Purchases 
    - Monetary value and purchase frequency had the highest influence.  
@@ -102,7 +118,7 @@ E. Customer Segmentation Report
 3.Others Customers (Regular Buyers (Moderate Spend & Frequency) – 54.6% of Customers
 
 
-##  4. Recommendations 
+##  5. Recommendations 
 
 A. Sales Optimization
 - Introduce seasonal promotions during low-sales months.  
@@ -129,6 +145,6 @@ D. Enhanced Data Utilization
 
 
 
-## 5. Conclusion
+## 6. Conclusion
 This analysis provides a data-driven approach to optimizing online retail sales. By leveraging machine learning, clustering, and forecasting, businesses can improve customer segmentation, enhance sales predictions, and drive revenue growth.  
 
