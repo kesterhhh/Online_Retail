@@ -11,7 +11,6 @@ This report presents an in-depth analysis of online retail sales using predictiv
 
 **TOOL USED**: Excel, Python (Python Libraries - Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, K-Means Clustering, Elbow Method, Prlncipal Component Analysis (PCA), Prophet)
 
----
 
 ## Dataset Summary
 
@@ -38,7 +37,6 @@ The online retail transaction dataset contains records of customer purchases wit
    The **CustomerID** column had 132,180 missing values, filled them using forward filling (**ffill**) to propagate previous values downward.  
 5. Changed the **CustomerID** column from **float** to **integer** for consistency.  
 
----
 
 ## 3. Methodology  
 
@@ -108,14 +106,12 @@ The online retail transaction dataset contains records of customer purchases wit
 - K-Means clustering was applied to identify customer groups.  
 - The Elbow Method was used to determine the optimal number of clusters.  
 
----
 
 ### Interactive Notebook Access
 
 For a comprehensive interactive analysis and to view the complete notebook, please click here:  
 [Online_Retail6.ipynb](Online_Retail6.ipynb)
 
----
 
 ## 4. Findings and Insights  
 
@@ -179,7 +175,6 @@ Using RFM (Recency, Frequency, Monetary) clustering:
 2. **Churned Customers (One-Time or Infrequent Buyers)** – 23.4% of Customers  
 3. **Others Customers (Regular Buyers, Moderate Spend & Frequency)** – 54.6% of Customers  
 
----
 
 ## 5. Recommendations  
 
@@ -203,7 +198,6 @@ Using RFM (Recency, Frequency, Monetary) clustering:
 - Improve model accuracy with more data features.  
 - Use AI-driven personalization for better recommendations.  
 
----
 
 ## 6. Conclusion
 
