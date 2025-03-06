@@ -9,7 +9,7 @@ This report presents an in-depth analysis of online retail sales using predictiv
 - Predict future sales trends based on historical data.  
 - Group customers based on purchasing behavior for targeted marketing.  
 
-**TOOL USED**: Excel, Python (Python Libraries - Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, K-Means Clustering, Elbow Method, Prlncipal Component Analysis (PCA), Prophet)
+**TOOL USED**: Excel and Python 
 
 
 ## Dataset Summary
@@ -26,7 +26,6 @@ The online retail transaction dataset contains records of customer purchases wit
 - Country: Country where the transaction was made  
 - Sales: Total sales value (Quantity × UnitPrice)
 
----
 
 ## 2. Data Cleaning
  
