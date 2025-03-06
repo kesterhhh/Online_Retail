@@ -125,7 +125,7 @@ For a comprehensive interactive analysis and to view the complete notebook, plea
    - Lowest sales were recorded in early-year months (January–February).  
 
 3. **Daily and Periodic Trends**  
-   - Peak purchasing times were observed in the late evening.  
+   - Peak purchasing times were observed in the afternoon.  
    - Sales were higher on weekends compared to weekdays.  
 
 4. **Top-Selling Products**  
