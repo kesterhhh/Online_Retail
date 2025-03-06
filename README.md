@@ -126,7 +126,7 @@ For a comprehensive interactive analysis and to view the complete notebook, plea
 
 3. **Daily and Periodic Trends**  
    - Peak purchasing times were observed in the afternoon.  
-   - Sales were higher on weekends compared to weekdays.  
+   - Sales were higher on weekdays compared to weekends.  
 
 4. **Top-Selling Products**  
    - A small group of products contributed to the majority of sales (DOTCOM POSTAGE, REGENCY CAKESTAND 3 TIER AND PAPER CRAFT, LITTLE BIRDIE)  
@@ -139,14 +139,12 @@ For a comprehensive interactive analysis and to view the complete notebook, plea
 **B. Customer Segmentation (Clustering Analysis)**  
 Using RFM (Recency, Frequency, Monetary) clustering:  
 - **Cluster 1**: High-Value Customers (Loyal Buyers)  
-  - Frequently purchase and contribute high revenue.  
-  - **Recommendation**: Implement loyalty programs and exclusive discounts.  
+  - Frequently purchase and contribute high revenue.   
 - **Cluster 2**: Occasional Buyers (Medium Value)  
   - Purchase less frequently but still valuable.  
-  - **Recommendation**: Encourage repeat purchases through personalized offers.  
 - **Cluster 3**: One-Time Buyers (Low Engagement)  
   - Purchase once and never return.  
-  - **Recommendation**: Use re-engagement campaigns and incentives.  
+   
 
 **C. Predictive Classification Model**  
 1. **Model Performance**  
