@@ -30,11 +30,11 @@ The online retail transaction dataset contains records of customer purchases wit
 ## 2. Data Cleaning
  
 1. Changed the column name from "Description" to "Product" for clarity.  
-2. Identified and handled negative values in the **Quantity** and **UnitPrice** columns (likely indicating returns or errors).  
+2. Identified and handled negative values in the Quantity and UnitPrice columns (likely indicating returns or errors).  
 3. Found 5,226 duplicate rows and dropped them to avoid redundancy.  
 4. Identified missing values in multiple columns.  
-   The **CustomerID** column had 132,180 missing values, filled them using forward filling (**ffill**) to propagate previous values downward.  
-5. Changed the **CustomerID** column from **float** to **integer** for consistency.  
+   The CustomerID column had 132,180 missing values, filled them using forward filling (ffill) to propagate previous values downward.  
+5. Changed the CustomerID column from float to integer for consistency.  
 
 
 ## 3. Methodology  
